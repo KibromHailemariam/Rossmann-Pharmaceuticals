@@ -1,0 +1,35 @@
+2025-01-04 17:00:56,753 - INFO - Loaded training data successfully.
+2025-01-04 17:00:56,920 - INFO - Loaded test data successfully.
+2025-01-04 17:00:56,927 - INFO - Train Data Columns: ['Store', 'DayOfWeek', 'Date', 'Sales', 'Customers', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 17:00:56,933 - INFO - Test Data Columns: ['Id', 'Store', 'DayOfWeek', 'Date', 'Open', 'Promo', 'StateHoliday', 'SchoolHoliday']
+2025-01-04 17:01:27,158 - INFO - Model training completed.
+2025-01-04 17:01:27,863 - INFO - Mean Absolute Error: 504.2116047817068
+2025-01-04 17:01:27,865 - INFO - Aligning test_data columns with training features...
+2025-01-04 17:01:27,922 - INFO - Predictions on test data completed.
+2025-01-04 17:12:13,573 - INFO - Feature Importance:
+2025-01-04 17:12:13,579 - INFO - 1. feature 2 (0.859396)
+2025-01-04 17:12:13,583 - INFO - 2. feature 0 (0.083478)
+2025-01-04 17:12:13,585 - INFO - 3. feature 4 (0.023801)
+2025-01-04 17:12:13,586 - INFO - 4. feature 1 (0.010243)
+2025-01-04 17:12:13,588 - INFO - 5. feature 8 (0.009497)
+2025-01-04 17:12:13,590 - INFO - 6. feature 7 (0.009065)
+2025-01-04 17:12:13,591 - INFO - 7. feature 6 (0.002922)
+2025-01-04 17:12:13,592 - INFO - 8. feature 5 (0.001463)
+2025-01-04 17:12:13,593 - INFO - 9. feature 9 (0.000093)
+2025-01-04 17:12:13,597 - INFO - 10. feature 10 (0.000028)
+2025-01-04 17:12:13,599 - INFO - 11. feature 11 (0.000013)
+2025-01-04 17:12:13,600 - INFO - 12. feature 3 (0.000000)
+2025-01-04 17:13:55,913 - INFO - Feature Importance:
+2025-01-04 17:15:11,213 - INFO - Feature Importance:
+2025-01-04 17:15:11,217 - INFO - 1. Feature: Customers - Importance: 0.8594
+2025-01-04 17:15:11,219 - INFO - 2. Feature: Store - Importance: 0.0835
+2025-01-04 17:15:11,221 - INFO - 3. Feature: Promo - Importance: 0.0238
+2025-01-04 17:15:11,222 - INFO - 4. Feature: DayOfWeek - Importance: 0.0102
+2025-01-04 17:15:11,225 - INFO - 5. Feature: Day - Importance: 0.0095
+2025-01-04 17:15:11,226 - INFO - 6. Feature: Month - Importance: 0.0091
+2025-01-04 17:15:11,229 - INFO - 7. Feature: Year - Importance: 0.0029
+2025-01-04 17:15:11,231 - INFO - 8. Feature: SchoolHoliday - Importance: 0.0015
+2025-01-04 17:15:11,233 - INFO - 9. Feature: StateHoliday_a - Importance: 0.0001
+2025-01-04 17:15:11,235 - INFO - 10. Feature: StateHoliday_b - Importance: 0.0000
+2025-01-04 17:15:11,238 - INFO - 11. Feature: StateHoliday_c - Importance: 0.0000
+2025-01-04 17:15:11,241 - INFO - 12. Feature: Open - Importance: 0.0000

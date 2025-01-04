@@ -4,3 +4,5 @@ __pycache__/
 *.pyd
 .env
 *.db
+data/
+notebooks/sales_forecasting_model.pkl
